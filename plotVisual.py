@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("spiral-dataset.csv", delimiter="\t", header=None, names=["X", "Y", "Cluster"])
 
 # Define custom colors for each cluster
-colors = {1: "red", 2: "blue", 3: "green"}  # Change colors as needed
+colors = {1: "green", 2: "blue", 3: "red"}  # Change colors as needed
 
 # Plot each cluster with a specific color
 plt.figure(figsize=(8, 8))
