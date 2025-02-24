@@ -105,6 +105,8 @@ def plot_clusters(data, clusters, centroids, title="K-Means Clustering Result"):
 
 # Run K-means 10 times and get best SSE & RI
 best_sse, best_ri, best_clusters, best_centroids = run_experiment(data, true_labels)
+print("=====================================")
 print(f"Best SSE: {best_sse}")
 print(f"Best Rand Index: {best_ri}")
+print("=====================================")
 plot_clusters(data, best_clusters, best_centroids)
